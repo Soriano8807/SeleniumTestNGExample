@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automatización SAM Formularios" verbose="1" thread-count="1" configfailurepolicy="continue">
+    <listeners>
+        <listener class-name="com.SAMFormularios.test.utils.TestListener"/>
+    </listeners>
+    
+    <!-------EXA----->
+    <test name="AdmRefLocales Test" parallel="methodos">
+    	<classes>
+        	<class name="com.SAMFormularios.EXA.test.AdmRefLocales_Test"/>
+    	</classes>
+	</test>
+	<test name="AdmAtribProductosEstados_Test" parallel="methodos">
+    	<classes>
+        	<class name="com.SAMFormularios.EXA.test.AdmAtribProductosEstados_Test"/>
+    	</classes>
+	</test>
+	<test name="AdmAtribProductosBloqueos Test" parallel="methodos">
+    	<classes>
+        	<class name="com.SAMFormularios.EXA.test.AdmAtribProductosBloqueos_Test"/>
+    	</classes>
+	</test>
+	<test name="AdmAtribProductosTitularidades Test" parallel="methodos">
+    	<classes>
+        	<class name="com.SAMFormularios.EXA.test.AdmAtribProductosTitularidades_Test"/>
+    	</classes>
+	</test>
+	<test name="AdmAgrupaciones Test" parallel="methodos">
+    	<classes>
+        	<class name="com.SAMFormularios.EXA.test.AdmAgrupaciones_Test"/>
+    	</classes>
+	</test>
+	<test name="AdmAtribClientes Test" parallel="methodos">
+    	<classes>
+        	<class name="com.SAMFormularios.EXA.test.AdmAtribClientes_Test"/>
+    	</classes>
+	</test>
+	<test name="AdmAtribAplicaciones Test" parallel="methodos">
+    	<classes>
+        	<class name="com.SAMFormularios.EXA.test.AdmAtribAplicaciones_Test"/>
+    	</classes>
+	</test>
+	<test name="AdmJerarqProductos Test" parallel="methodos">
+    	<classes>
+        	<class name="com.SAMFormularios.EXA.test.AdmJerarqProductos_Test"/>
+    	</classes>
+	</test>
+	<test name="AdmParamJerarquia Test" parallel="methodos">
+    	<classes>
+        	<class name="com.SAMFormularios.EXA.test.AdmParamJerarquia_Test"/>
+    	</classes>
+	</test>
+	
+    <!-------SRP----->
+    <test name="AdmReferencias Test" parallel="methodos">
+    	<classes>
+        	<class name="com.SAMFormularios.test.SRP.AdmReferencias_Test"/>
+    	</classes>
+	</test>
+	
+</suite>

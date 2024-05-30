@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28824" started-at="2021-05-01T22:29:39Z" finished-at="2021-05-01T22:30:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28824" started-at="2021-05-01T22:29:39Z" finished-at="2021-05-01T22:30:08Z">
+      <class name="com.SAMFormulariosWeb.ALR.test.AudListasRiesgo_Test">
+        <test-method status="PASS" signature="inicializar()[pri:0, instance:com.SAMFormulariosWeb.ALR.test.AudListasRiesgo_Test@60dcc9fe]" name="inicializar" is-config="true" duration-ms="6445" started-at="2021-05-01T22:29:40Z" finished-at="2021-05-01T22:29:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inicializar -->
+        <test-method status="PASS" signature="consultaListaRiesgoPorNombre()[pri:0, instance:com.SAMFormulariosWeb.ALR.test.AudListasRiesgo_Test@60dcc9fe]" name="consultaListaRiesgoPorNombre" duration-ms="5915" started-at="2021-05-01T22:29:46Z" description="Consulta en Listas de Riesgo por Nombre" finished-at="2021-05-01T22:29:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- consultaListaRiesgoPorNombre -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SAMFormulariosWeb.ALR.test.AudListasRiesgo_Test@60dcc9fe]" name="tearDown" is-config="true" duration-ms="906" started-at="2021-05-01T22:29:52Z" finished-at="2021-05-01T22:29:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="inicializar()[pri:0, instance:com.SAMFormulariosWeb.ALR.test.AudListasRiesgo_Test@60dcc9fe]" name="inicializar" is-config="true" duration-ms="5700" started-at="2021-05-01T22:29:53Z" finished-at="2021-05-01T22:29:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inicializar -->
+        <test-method status="PASS" signature="verDetalleAuditoria()[pri:1, instance:com.SAMFormulariosWeb.ALR.test.AudListasRiesgo_Test@60dcc9fe]" name="verDetalleAuditoria" duration-ms="8764" started-at="2021-05-01T22:29:59Z" description="Ver detalle consulta auditoria" finished-at="2021-05-01T22:30:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verDetalleAuditoria -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SAMFormulariosWeb.ALR.test.AudListasRiesgo_Test@60dcc9fe]" name="tearDown" is-config="true" duration-ms="852" started-at="2021-05-01T22:30:07Z" finished-at="2021-05-01T22:30:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.SAMFormulariosWeb.ALR.test.AudListasRiesgo_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
